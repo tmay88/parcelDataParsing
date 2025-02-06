@@ -1,0 +1,48 @@
+streetname LIKE 'NORTH'
+OR
+streetname LIKE 'SOUTH'
+OR
+streetname LIKE 'EAST'
+OR
+streetname LIKE 'WEST'
+OR
+streetname LIKE 'NORTH %'
+OR
+streetname LIKE 'SOUTH %'
+OR
+streetname LIKE 'EAST %'
+OR
+streetname LIKE 'WEST %'
+OR
+streetname LIKE 'N %'
+OR
+streetname LIKE 'NE %'
+OR
+streetname LIKE 'NW %'
+OR
+streetname LIKE 'S %'
+OR
+streetname LIKE 'SE %'
+OR
+streetname LIKE 'SW %'
+OR
+streetname LIKE 'E %'
+OR
+streetname LIKE 'W %'
+
+---------------------------------------------
+streetname LIKE '% N'
+OR
+streetname LIKE '% NE'
+OR
+streetname LIKE '% NW'
+OR
+streetname LIKE '% S'
+OR
+streetname LIKE '% SE'
+OR
+streetname LIKE '% SW'
+OR
+streetname LIKE '% E'
+OR
+streetname LIKE '% W'
