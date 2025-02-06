@@ -1,0 +1,43 @@
+streettype = 'ST'
+OR
+streettype = 'RD'
+OR
+streettype = 'DR'
+OR
+streettype = 'GLN'
+OR
+streettype = 'CIR'
+OR
+streettype = 'CT'
+OR
+streettype = 'CV'
+OR
+streettype = 'RT'
+OR
+streettype = 'LN'
+OR
+streettype = 'PL'
+OR
+streettype = 'PKWY'
+OR
+streettype = 'BLVD'
+OR
+streettype = 'AVE'
+OR
+streettype = 'TRC'
+OR
+streettype = 'TR'
+OR
+streettype = 'PT'
+OR
+streettype = 'WAY'
+OR
+streettype = 'BND'
+OR
+streettype = 'HWY'
+OR
+streettype = 'FWY'
+OR
+streettype = 'EXPY'
+OR
+streettype = 'LOOP'
