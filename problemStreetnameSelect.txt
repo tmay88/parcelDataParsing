@@ -1,0 +1,57 @@
+#STARTSWITH
+streetname LIKE '1%' OR
+streetname LIKE '2%' OR
+streetname LIKE '3%' OR
+streetname LIKE '4%' OR
+streetname LIKE '5%' OR
+streetname LIKE '6%' OR
+streetname LIKE '7%' OR
+streetname LIKE '8%' OR
+streetname LIKE '9%' OR
+streetname LIKE '-%' OR
+streetname LIKE '&%' OR
+streetname LIKE '/%' OR
+streetname LIKE '+%' OR
+streetname LIKE '0%'
+
+#ENDSWITH
+streetname LIKE '%1' OR
+streetname LIKE '%2' OR
+streetname LIKE '%3' OR
+streetname LIKE '%4' OR
+streetname LIKE '%5' OR
+streetname LIKE '%6' OR
+streetname LIKE '%7' OR
+streetname LIKE '%8' OR
+streetname LIKE '%9' OR
+streetname LIKE '%0' OR
+streetname LIKE '%11' OR
+streetname LIKE '%12' OR
+streetname LIKE '%13' OR
+streetname LIKE '%-' OR
+streetname LIKE '%&' OR
+streetname LIKE '%\' OR
+streetname LIKE '%+' OR
+
+
+
+#REMOVE FROM SELECTION
+streetname LIKE '%ST'
+OR
+streetname LIKE '%ND'
+OR
+streetname LIKE '%RD'
+OR
+streetname LIKE '%TH'
+
+
+#REMOVE FROM SELECTION
+streetname LIKE 'HWY %'
+OR
+streetname LIKE 'FWY %'
+OR
+streetname LIKE 'LOOP %'
+OR
+streetname LIKE 'FM %'
+OR
+streetname LIKE 'CR %'
