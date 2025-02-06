@@ -1,0 +1,40 @@
+ALTER TABLE **Table Name**
+ADD COLUMN housenum varchar (10),
+ADD COLUMN predir varchar (10),
+ADD COLUMN streetname varchar (100),
+ADD COLUMN pretype varchar (10),
+ADD COLUMN streettype varchar (10),
+ADD COLUMN sufdir varchar (10),
+ADD COLUMN countyname varchar (100),
+ADD COLUMN fulladdress varchar (150),
+ADD COLUMN placename varchar (100),
+ADD COLUMN createddate timestamp,
+ADD COLUMN editor varchar (2),
+ADD COLUMN gcverbase varchar (5);
+
+____________________________________________________________________________________
+	
+create table hidalgo.gcverbase00011 (
+	gid serial not null,
+	geom geometry("MULTIPOLYGON", 4326),
+	housenum varchar (10),
+	predir varchar (10),
+	streetname varchar (100),
+	pretype varchar (10),
+	streettype varchar (10),
+	sufdir varchar (10),
+	countyname varchar (100),
+	fulladdress varchar (150),
+	placename varchar (100),
+	createddate timestamp,
+	editor varchar (2),
+	gcverbase varchar (5),
+	prop_id varchar (10),
+	geo_id varchar (50)
+	);
+
+_____________________________________________________________________________________	
+	
+INSERT INTO hidalgo.gcverbase00011 (geom, fulladdress, prop_id, geo_id)
+SELECT geom, situs_addr, prop_id, geo_id 
+FROM hidalgo.tnrisnoz
